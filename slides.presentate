@@ -1,0 +1,46 @@
+{"top": 0, "left": 0, "center": "auto", "notes": 12345}
+===
+The {bold}IPSY{/bold} Journey to
+---
+The {bold}IPSY{/bold} Journey to.
+---
+The {bold}IPSY{/bold} Journey to..
+---
+The {bold}IPSY{/bold} Journey to...
+---
+{bold}{rainbow}Containers!!!!{/rainbow}{/bold}
+---
+{bold}EKS{/bold}                                                 {bold}ECS{/bold}
+
+* {green}Flexibility{/green}: wide set of options to manage        * {blue}Simplicity{/blue}: easier to implement basic deployments,
+  deployments, rolling strategies, etc.               but will not allow complex configurations.
+
+* {green}Monitoring{/green}: strong set of metrics.                * {blue}Monitoring{/blue}: few metrics for the pod.
+
+* {green}Tooling{/green}: great built in tools and                 * {blue}Tooling{/blue}: includes a  basic set of tools and you
+  lots of third party options. Huge community.        can not use it on your local env.
+
+* {green}Configuration{/green}: it includes a                      * {blue}Configuration{/blue}: integrated with AWS services,
+  built in objects for config and secrets.            they are expensive.
+
+* {green}Integration with other services{/green}: seamless         * {blue}Integration with other services{/blue}: by LB
+  integrations, easy to connect multiple clusters.    and R53 service discovery.
+---
+{inverse}{bold}EKS{/bold}                                               {/inverse}   {strikethrough}{bold}ECS{/bold}{/strikethrough}
+{inverse}                                                  {/inverse}
+{inverse}* {green}Flexibility{/green}: wide set of options to manage      {/inverse}   {strikethrough}* {blue}Simplicity{/blue}: easier to implement basic deployments,{/strikethrough}
+{inverse}  deployments, rolling strategies, etc.           {/inverse}     {strikethrough}but will not allow complex configurations.        {/strikethrough}
+{inverse}                                                  {/inverse}
+{inverse}* {green}Monitoring{/green}: strong set of metrics.              {/inverse}   {strikethrough}* {blue}Monitoring{/blue}: few metrics for the pod.{/strikethrough}
+{inverse}                                                  {/inverse}
+{inverse}* {green}Tooling{/green}: great built in tools and               {/inverse}   {strikethrough}* {blue}Tooling{/blue}: includes a  basic set of tools and you{/strikethrough}
+{inverse}  lots of third party options. Huge community.    {/inverse}     {strikethrough}can not use it on your local env.              {/strikethrough}
+{inverse}                                                  {/inverse}
+{inverse}* {green}Configuration{/green}: it includes a                    {/inverse}   {strikethrough}* {blue}Configuration{/blue}: integrated with AWS services,{/strikethrough}
+{inverse}  built in objects for config and secrets.        {/inverse}     {strikethrough}they are expensive.                        {/strikethrough}
+{inverse}                                                  {/inverse}
+{inverse}* {green}Integration with other services{/green}: seamless       {/inverse}   {strikethrough}* {blue}Integration with other services{/blue}: by LB{/strikethrough}
+{inverse}  integrations, easy to connect multiple clusters.{/inverse}     {strikethrough}and R53 service discovery.            {/strikethrough}
+---
+PAOLO COME {bold}VERGA!!{/bold}
+---
