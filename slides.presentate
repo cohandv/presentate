@@ -101,3 +101,19 @@ NODE 1                                                      | Custom Centos     
 |   +------------------+                           |
 |                                                  |
 +--------------------------------------------------+
+---
+{bold}Next steps{/bold}
+
+* {bold}Manage k8s resources with Terraform{/bold}: build terraform modules for
+applications to provision K8S kinds that the application needs (e.g a service)
+
+* {bold}Monitoring{/bold}:  Extend our monitoring tooling to include k8s resources.
+
+* {bold}Logging{/bold}: Adapt our current logging solution combined with containers
+best practices.
+
+* {bold}Buddy{/bold}: Build a seamless integration with our deployment solution so we
+continue standarizing our deployment model as we establish a secure mechanism for the
+container images.
+---
+Logging
