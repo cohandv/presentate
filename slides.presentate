@@ -42,5 +42,31 @@ The {bold}IPSY{/bold} Journey to...
 {inverse}* {green}Integration with other services{/green}: seamless       {/inverse}   {strikethrough}* {blue}Integration with other services{/blue}: by LB{/strikethrough}
 {inverse}  integrations, easy to connect multiple clusters.{/inverse}     {strikethrough}and R53 service discovery.            {/strikethrough}
 ---
-PAOLO COME {bold}VERGA!!{/bold}
----
+
+                                         +-----------------------+
+                                         |                       |
+              online node group          |  CUSTOM EKS Node      |
+              +------------+             |                       |
+              |----+ +-----|     XXXXXXXX|  Centos AMI           |
+       +----->-|   | |node||XXXXXX       |                       |
+       |      ||   | |    ||             |  Centos Docker Image  |
+       |      |----+ +-----|             |                       |
+       |      +------------+             +-----------------------+
+       |
++------+      batch node group
+|      |      +------------+
+| EKS  |      |----+ +-----|
+|      +----->-|   | |node||
+|master|      ||   | |    ||
+|      |      |----+ +-----|
+|      |      +------------+
++------+
+       |
+       |
+       |       dedicated node group
+       |      +------------+
+       |      |----+ +-----|
+       |      ||   | |node||
+       +----->-|   | |    ||
+              |----+ +-----|
+              +------------+
